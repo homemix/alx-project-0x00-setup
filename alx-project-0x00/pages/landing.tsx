@@ -8,25 +8,27 @@ const Landing: React.FC = () => {
             <h1 className="text-xl font-extralight">Landing Page</h1>
             <Card/>
 
-            <div className="flex flex-col items-center justify-center min-h-screen gap-6 bg-gray-100">
-                <h1 className="text-2xl font-bold mb-4">Custom Button Variants</h1>
+            <h1 className="text-2xl font-bold mb-4">Custom Button Variants</h1>
 
-                {/* Small Buttons */}
-                <div className="flex gap-3">
-                    <Button title="Small Rounded-sm" className="text-sm px-3 py-1 rounded-sm"/>
-                </div>
 
-                {/* Medium Buttons */}
-                <div className="flex gap-3">
-                    <Button title="Medium Rounded-sm" className="text-base px-4 py-2 rounded-sm"/>
+            <div className="flex gap-3">
+                <Button title="Small Rounded-sm" className="text-sm px-3 py-1 rounded-sm"/>
+                <Button title="Small Rounded-md" className="text-sm px-3 py-1 rounded-md"/>
+                <Button title="Small Rounded-full" className="text-sm px-3 py-1 rounded-full"/>
+            </div>
 
-                </div>
 
-                {/* Large Buttons */}
-                <div className="flex gap-3">
-                    <Button title="Large Rounded-sm" className="text-lg px-6 py-3 rounded-sm"/>
+            <div className="flex gap-3">
+                <Button title="Medium Rounded-sm" className="text-base px-4 py-2 rounded-sm"/>
+                <Button title="Medium Rounded-md" className="text-base px-4 py-2 rounded-md"/>
+                <Button title="Medium Rounded-full" className="text-base px-4 py-2 rounded-full"/>
+            </div>
 
-                </div>
+
+            <div className="flex gap-3">
+                <Button title="Large Rounded-sm" className="text-lg px-6 py-3 rounded-sm"/>
+                <Button title="Large Rounded-md" className="text-lg px-6 py-3 rounded-md"/>
+                <Button title="Large Rounded-full" className="text-lg px-6 py-3 rounded-full"/>
             </div>
         </div>
     )

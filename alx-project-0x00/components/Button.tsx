@@ -1,10 +1,5 @@
 import React from "react";
-
-interface ButtonProps {
-    title: string;
-    className?: string;
-    onClick?: () => void;
-}
+import { ButtonProps } from "../interfaces";
 
 const Button: React.FC<ButtonProps> = ({ title, className = "", onClick }) => {
     return (
