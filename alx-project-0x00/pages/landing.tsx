@@ -14,14 +14,14 @@ const Landing: React.FC = () => {
             <div className="flex gap-3">
                 <Button title="Small Rounded-sm" className="text-sm px-3 py-1 rounded-sm"/>
                 <Button title="Small Rounded-md" className="text-sm px-3 py-1 rounded-md"/>
-                <Button title="Small Rounded-full" className="text-sm px-3 py-1 rounded-full"/>
+                <Button title="Small Rounded-lg" className="text-sm px-3 py-1 rounded-full"/>
             </div>
 
 
             <div className="flex gap-3">
                 <Button title="Medium Rounded-sm" className="text-base px-4 py-2 rounded-sm"/>
                 <Button title="Medium Rounded-md" className="text-base px-4 py-2 rounded-md"/>
-                <Button title="Medium Rounded-full" className="text-base px-4 py-2 rounded-full"/>
+                <Button title="Medium Rounded-lg" className="text-base px-4 py-2 rounded-full"/>
             </div>
 
 
